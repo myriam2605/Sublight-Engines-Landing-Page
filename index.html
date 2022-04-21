@@ -21,17 +21,17 @@
             (function () {
                 emailjs.init("ns5XfVbH1t_HcZpVn");
             })();
-        </script>
-        <script type="text/javascript">
             window.onload = function () {
                 document.getElementById("service_request_form").addEventListener("submit", function (event) {
                     event.preventDefault();
                     // generate a five digit number for the contact_number variable
                     // this.contact_number.value = (Math.random() * 100000) | 0;
                     // these IDs from the previous steps
-                    emailjs.sendForm("service_3e5pv2t", "template_gt7s0xe", this).then(
-                        function (response) {
+                    emailjs.sendForm("service_3e5pv2t", "template_2n471km", this).then(
+                        function () {
                             console.log("SUCCESS!");
+                            alert("Your request is succefully sent !");
+                            location.reload();
                         },
                         function (error) {
                             console.log("FAILED...", error);
@@ -220,7 +220,7 @@
                     <img src="assets/separator.svg" class="separator" alt="separator" />
                 </div>
 
-                <form id="service_request_form" action="index.html" method="post">
+                <form id="service_request_form" action="/index.html" method="post">
                     <div class="form-control">
                         <label for="request_fullname">Name *</label>
                         <input id="request_fullname" type="text" name="fullname" placeholder="Enter your full name" required />
