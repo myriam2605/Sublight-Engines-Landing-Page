@@ -296,7 +296,7 @@ section#products .products-list-wrapper .product-item .product-wrapper p {
 section#products .products-list-wrapper .product-item .product-wrapper p span {
     display: block;
     margin: 0 0 5px;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 600;
     text-transform: uppercase;
 }

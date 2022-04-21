@@ -27,16 +27,23 @@
                     // generate a five digit number for the contact_number variable
                     // this.contact_number.value = (Math.random() * 100000) | 0;
                     // these IDs from the previous steps
-                    emailjs.sendForm("service_3e5pv2t", "template_2n471km", this).then(
-                        function () {
-                            console.log("SUCCESS!");
-                            alert("Your request is succefully sent !");
-                            location.reload();
-                        },
-                        function (error) {
-                            console.log("FAILED...", error);
-                        }
-                    );
+                    emailjs
+                        .send("service_3e5pv2t", "template_2n471km", {
+                            to_request_fullname: document.getElementById("request_fullname").value,
+                            request_phone: document.getElementById("request_phone").value,
+                            request_language: document.getElementById("request_language").value,
+                            from_name: "Sublight Engines",
+                        })
+                        .then(
+                            function () {
+                                console.log("SUCCESS!");
+                                alert("Your request is succefully sent !");
+                                location.reload();
+                            },
+                            function (error) {
+                                console.log("FAILED...", error);
+                            }
+                        );
                 });
             };
         </script>
