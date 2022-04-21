@@ -567,6 +567,13 @@ li {
         padding: clamp(1rem, 8vw, 1rem);
         max-width: 100%;
     }
+    .section-heading-wrapper h2 {
+        text-align: center;
+        font-size: 39px;
+        font-weight: 900;
+        text-transform: uppercase;
+        display: block;
+    }
     /* .section-flex-reversed {
         padding: clamp(1rem, 8vw, 1rem);
         max-width: 100%;
@@ -575,4 +582,71 @@ li {
         padding: clamp(1rem, 8vw, 1rem);
         max-width: 100%;
     } */
+
+    .dowload-cta-wrapper {
+        position: fixed;
+        top: 85%;
+
+        width: 100%;
+
+        color: #ffffff;
+        min-height: 70px;
+        align-items: center;
+        padding: 15px 0 0 0;
+        background-color: rgba(0, 0, 0, 0.6);
+        height: 20%;
+        margin: 0 0 0 -15px;
+    }
+    section#services .services-list-wrapper {
+        display: BLOCK;
+        justify-content: center;
+    }
+    section#services .service-item.push-items {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    img {
+        width: 100%;
+        max-width: 100%;
+        outline: 0;
+        border: none;
+    }
+    section#security .section-flex-reversed .section-item {
+        width: 100%;
+    }
+    section#security {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    section:not(#hero) {
+        display: block;
+        padding: 75px 15px;
+    }
+    section#security .section-flex-reversed {
+        display: BLOCK;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    section#products .products-list-wrapper {
+        display: BLOCK;
+        justify-content: center;
+        margin-bottom: 75px;
+    }
+    section#products .products-list-wrapper .product-item .product-wrapper {
+        width: 100%;
+        display: block;
+        flex-direction: column;
+        margin: 0 0px;
+        background-color: #fff;
+        -webkit-box-shadow: 0px 10px 14px -3px rgb(0 0 0 / 50%);
+        box-shadow: 0px 10px 14px -3px rgb(0 0 0 / 50%);
+    }
+    section#products .dowload-cta-wrapper a.download-catalog-link:hover {
+        color: black;
+        border-color: #fff;
+        background: #fff;
+        transform: scale(1.1);
+    }
 }
