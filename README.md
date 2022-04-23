@@ -11,4 +11,7 @@ Here is a list of things to consider in my project:
 `4- Mobile-first approach in the CSS structure`
 `5- Conditional elements rendering with CSS media-queries`
 
+In my page, When the form is correctly completed, a confirmation message appears on the site to say that the request has been sent successfully.
+In order to reset the page, just click on the "ok" to empty the form.
+
 ## Explaining video:

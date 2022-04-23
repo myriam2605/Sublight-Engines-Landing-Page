@@ -552,7 +552,7 @@ li {
     .hamburger {
         display: block;
     }
-    .hamburger.active .bar:nth-child(2) {
+    /* .hamburger.active .bar:nth-child(2) {
         opacity: 0;
     }
     .hamburger.active .bar:nth-child(1) {
@@ -560,7 +560,7 @@ li {
     }
     .hamburger.active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
-    }
+    } */
 
     .nav-menu {
         position: fixed;
@@ -605,7 +605,7 @@ li {
 
     .dowload-cta-wrapper {
         position: fixed;
-        top: 755px;
+        top: 90%;
 
         width: 100%;
 
