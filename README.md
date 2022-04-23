@@ -11,6 +11,4 @@ Here is a list of things to consider in my project:
 `4- Mobile-first approach in the CSS structure`
 `5- Conditional elements rendering with CSS media-queries`
 
-## Below is the html address of my website accessible on the internet using github:
-
 ## Explaining video:
