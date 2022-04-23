@@ -231,7 +231,8 @@ section#security .section-flex-reversed {
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
 }
 
 section#security .section-flex-reversed .section-item {
@@ -476,6 +477,15 @@ footer .footer-copyrights p {
     font-weight: 700;
 }
 
+.section-heading-wrapper h2 p {
+    display: block;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 900;
+    line-height: 53px;
+    color: #fff;
+}
+
 .section-heading-wrapper img.separator {
     width: 200px;
 }
@@ -530,6 +540,13 @@ li {
     transition: all 0.3s ease-in-out;
     background: white;
 }
+#hero .hero-caption h1 p {
+    display: block;
+    font-size: 79px;
+    font-weight: 900;
+    line-height: 93px;
+    text-align: center;
+}
 
 @media (max-width: 768px) {
     .hamburger {
@@ -555,6 +572,7 @@ li {
         width: 100%;
         text-align: center;
         transition: 0.8s;
+        align-items: flex-start;
         /* transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1); */
     }
 
@@ -570,7 +588,8 @@ li {
     }
     .section-heading-wrapper h2 {
         text-align: center;
-        font-size: 39px;
+        font-size: 22px;
+        line-height: 28px;
         font-weight: 900;
         text-transform: uppercase;
         display: block;
@@ -586,7 +605,7 @@ li {
 
     .dowload-cta-wrapper {
         position: fixed;
-        top: 738px;
+        top: 755px;
 
         width: 100%;
 
@@ -686,5 +705,111 @@ li {
     }
     section#about_us .section-flex-wrapper {
         flex-direction: column-reverse;
+    }
+    section#about_us h2 {
+        padding: 0px 0px 40px 0px;
+        margin-left: 26px;
+        text-align: center;
+        margin-bottom: 0;
+        margin-right: 26px;
+        color: #ff7630;
+        font-size: 45px;
+        font-weight: 900;
+        line-height: 53px;
+    }
+    footer .footer-flex-wrapper .office-item p {
+        text-align: center;
+        margin-top: 0;
+        color: #292929;
+        font-size: 20px;
+        text-transform: uppercase;
+        font-weight: 400;
+        line-height: 26px;
+    }
+    footer .footer-flex-wrapper {
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+        padding: 25px;
+    }
+    footer .footer-flex-wrapper .office-item h3 {
+        margin-bottom: 8px;
+        color: #ff7630;
+        text-transform: uppercase;
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 18px;
+        text-align: center;
+    }
+    footer .footer-copyrights {
+        display: block;
+        margin-top: 40px;
+        padding: 0% 0% 14% 0%;
+    }
+    .section-heading-wrapper h2 span {
+        display: block;
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 19px;
+        text-align: center;
+    }
+    section#service_request form .group-flex-controls {
+        display: block;
+    }
+    section#service_request form .group-flex-controls .group-item:first-child {
+        width: 100%;
+        margin-right: 15px;
+    }
+    section#service_request form .group-flex-controls .group-item {
+        width: 100%;
+    }
+    section#service_request form input[type="submit"] {
+        display: block;
+        width: 100%;
+        padding: 15px;
+        border: 3px solid #292929;
+        outline: 0;
+        background-color: transparent;
+        color: #292929;
+        text-transform: uppercase;
+        font-weight: 700;
+        cursor: pointer;
+        transition: background-color 250ms ease, color 250ms ease;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+    }
+    section#products .products-list-wrapper {
+        margin: 0px 40px 0 40px;
+        display: BLOCK;
+        justify-content: center;
+        margin-bottom: 75px;
+    }
+    section#services .services-list-wrapper {
+        padding: 0px 70px;
+        display: BLOCK;
+        justify-content: center;
+    }
+    .section-heading-wrapper h2 p {
+        display: block;
+        text-align: center;
+        font-size: 22px;
+        font-weight: 900;
+        line-height: 28px;
+        color: #fff;
+    }
+    #hero .hero-caption h1 p {
+        display: block;
+        font-size: 48px;
+        font-weight: 900;
+        line-height: 56px;
+        text-align: center;
+    }
+    #hero .hero-caption h1 span {
+        display: block;
+        font-size: 28px;
+        font-weight: 800;
+        line-height: 33px;
+        text-align: center;
     }
 }
